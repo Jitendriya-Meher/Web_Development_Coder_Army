@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(223, 165, 79);
+    padding: 30px;
+}
+
+.card{
+    border: 5px solid black;
+    background-color: blueviolet;
+    color: yellowgreen;
+    width: 30vw;
+    padding: 10px;
+    text-align: center;
+
+    margin: 10px 20px 20px 35vw;
+}
+
+.card h2{
+    color: yellow;
+}
+
+.card h3{
+    color: purple;
+}
+
+.card p{
+    color: white;
+}
+
+
+.card:hover{
+    background-color: brown;
+    border: 5px solid white;
+
+    transform: scale(1.1);
+}
+
+.card:hover p{
+    color: rgb(0, 0, 0);
+}
+
+.card:hover h3{
+    color: white;
+}
+
+.card:hover h2{
+    color: cadetblue;
+}
