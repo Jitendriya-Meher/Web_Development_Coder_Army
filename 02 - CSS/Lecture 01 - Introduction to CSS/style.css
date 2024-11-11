@@ -1,0 +1,18 @@
+#h2{
+    background-color: rgb(42, 165, 108);
+    color: rgb(201, 45, 76);
+    font-size: 50px;
+}
+
+#ul{
+    background-color: blueviolet;
+}
+
+#ul li{
+    color: rgb(34, 201, 213);
+    background-color: rgb(82, 24, 149);
+}
+
+.fsz{
+    font-size: 50px;
+}

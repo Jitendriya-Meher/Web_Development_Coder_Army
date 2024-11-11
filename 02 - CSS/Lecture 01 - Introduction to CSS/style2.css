@@ -1,0 +1,42 @@
+/* universal selector  */
+*{
+    color: brown;
+}
+
+body{
+    background-color: rgb(176, 223, 207);
+}
+
+h1,
+h2{
+    color: rgb(66, 15, 6);
+    font-size: 30px;
+}
+
+h3,
+p{
+    color: black;
+}
+
+p[contenteditable="true"]{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+
+ul .fsz{
+    font-size: 30px;
+    color: red;
+}
+
+section p{
+    font-size: 20px;
+    color: yellow;
+    background-color: yellowgreen;
+}
+
+section > p {
+    font-size: 20px;
+    color: red;
+    background-color: pink;
+}
