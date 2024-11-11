@@ -1,0 +1,46 @@
+.container{
+    background-color: #aaa;
+    margin: 200px;
+    padding: 100px;
+
+    position: relative;
+}
+
+.b{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.b1{
+    background-color: aqua;
+
+    /* by default */
+    position: static;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.b2{
+    background-color: blueviolet;
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.b3{
+    background-color: yellowgreen;
+
+    position:fixed;
+    top: 20px;
+}
+
+.b4{
+    background-color: palevioletred;
+
+    position: sticky;
+    top: 50px;
+}
