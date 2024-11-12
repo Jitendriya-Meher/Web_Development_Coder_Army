@@ -1,0 +1,48 @@
+h1{
+    background-color: aquamarine;
+    color: tomato;
+
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    /* text-align-last: center; */
+    
+    direction: rtl;
+
+    text-decoration: dashed;
+    text-decoration: line-through;
+
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+p{
+    margin: 10px;
+    padding: 50px;
+    background: #ccc;
+    padding: 10px;
+    text-align: justify;
+
+    word-spacing: 10px;
+    letter-spacing: 2px;
+
+    line-height: 20px;
+
+    box-shadow: 5px 5px 10px black, -5px -5px 10px rgb(3, 235, 46);
+
+    box-shadow:inset 0px 0px 10px 10px black;
+
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease;
+}
+
+p:hover{
+    background-color: black;
+    color: white;
+    box-shadow:inset 0px 0px 10px 10px white;
+}
