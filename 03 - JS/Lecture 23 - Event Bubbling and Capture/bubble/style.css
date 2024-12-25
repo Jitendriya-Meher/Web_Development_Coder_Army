@@ -1,0 +1,48 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+}
+
+#grandParent{
+    padding: 30px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aquamarine;
+}
+
+#parent{
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: bisque;
+}
+
+#child{
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: blanchedalmond;
+}
